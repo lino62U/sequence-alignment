@@ -24,3 +24,14 @@ void guardarResultado(const std::string& filename,
                       const std::vector<std::string>& alineamientos1,
                       const std::vector<std::string>& alineamientos2,
                       int scoreFinal);
+
+
+
+// Función para guardar resultados en txt según los requisitos
+void guardarResultadoLocal(const std::string& filename,
+                           const std::vector<std::vector<int>>& matriz,
+                           int maxScore,
+                           const std::vector<std::string>& a1,
+                           const std::vector<std::string>& a2,
+                           const std::vector<std::pair<int,int>>& posiciones1,
+                           const std::vector<std::pair<int,int>>& posiciones2);

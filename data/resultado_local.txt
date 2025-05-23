@@ -1,0 +1,17 @@
+Score máximo local: 2
+
+Alineamiento local 1:
+Subsecuencia común: GC
+Posición en s1: desde 1 hasta 2
+Posición en s2: desde 0 hasta 1
+GC
+GC
+
+¿Existe subsecuencia común en otra subsecuencia? No
+
+Matriz de scores:
+0	0	0	0	
+0	0	0	1	
+0	1	0	0	
+0	0	2	0	
+0	0	0	1	
