@@ -8,12 +8,10 @@ using namespace std;
 void mostrarMatriz(const vector<vector<int>>& matriz, const string& s1, const string& s2) {
     cout << "\nMatriz de puntuaciones:\n    ";
     for (char c : s2) cout << setw(3) << c;
-    cout << "\n  ";
-    for (size_t j = 0; j <= s2.size(); ++j) cout << setw(3) << j;
     cout << "\n";
 
     for (size_t i = 0; i <= s1.size(); ++i) {
-        if (i == 0) cout << "0 ";
+        if (i == 0) cout << "  ";    // Espacio para alinear la primera fila
         else cout << s1[i - 1] << " ";
         for (int val : matriz[i]) cout << setw(3) << val;
         cout << "\n";

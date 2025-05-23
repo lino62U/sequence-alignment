@@ -104,6 +104,6 @@ int alineamientoGlobal(const string& s1, const string& s2) {
     for (size_t i = 0; i < a1.size(); ++i)
         cout << "\nAlineamiento " << i + 1 << ":\n" << a1[i] << "\n" << a2[i] << "\n";
 
-    guardarResultado("resultado.txt", matriz, a1, a2, matriz[n][m]);
+    guardarResultado("data/resultado.txt", matriz, a1, a2, matriz[n][m]);
     return matriz[n][m]; 
 }
